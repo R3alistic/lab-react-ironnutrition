@@ -1,7 +1,8 @@
 import { Card, Col, Button } from 'antd';
 import React, { Component } from 'react';
 
-function FoodBox(props, {handleDeleteFood}) {
+function FoodBox(props) {
+    const {handleDeleteFood} = props
     return (
         <>
             <Col>
